@@ -31,12 +31,11 @@ if (/[^a-z0-9]/i.test(name)){
 }
 
 const params = {
-  parentDir: dirName
-, typesDir: options.t || 'types'
+  typesDir: options.t || 'types'
 , actionsDir: options.a || 'actions'
-, reducersDir: reducers.r || 'reducers'
+, reducersDir: options.r || 'reducers'
 }
-run(name, parentDir, params)
+run(name, dirName, params)
 
 function printVersionsAndExit() {
   console.log('db-difftool: ' + require('./package.json').version)

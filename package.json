@@ -2,12 +2,13 @@
 	"name": "redux-add",
 	"version": "0.1.0",
 	"dependencies": {
+		"minimist": "^1.2.0",
+		"mkdirp": "^0.5.1"
 	},
 	"scripts": {
 		"start": ""
 	},
-  "bin": {
-    "redux-add": "./bin.js"
-  }
+	"bin": {
+		"redux-add": "./bin.js"
+	}
 }
-
