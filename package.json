@@ -1,0 +1,13 @@
+{
+	"name": "redux-add",
+	"version": "0.1.0",
+	"dependencies": {
+	},
+	"scripts": {
+		"start": ""
+	},
+  "bin": {
+    "redux-add": "./bin.js"
+  }
+}
+
