@@ -8,3 +8,22 @@ Install
 ```
 npm i -g redux-add
 ```
+
+Usage
+-----
+```
+redux-add [dirname] [name]
+redux-add . user
+```
+
+Generates:
+
+```
+current dir
+└───actions
+│   │   user.js
+└───types
+    │   user.js
+└───reducers
+    │   user.js
+```
